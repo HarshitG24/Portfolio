@@ -1,0 +1,96 @@
+:root {
+    --background-color: #343f4f;
+    --font-white-static: #fff;
+    --button-color: #9f68e0;
+    --font-dynamic: #fc6d6d
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    background: var(--background-color);
+  }
+
+  .home{
+    display: inline-block;
+  }
+
+  .wrapper{
+    float: left;
+    display: inline-flex;
+  }
+
+  .wrapper .static-txt{
+    color: var(--font-white-static);
+    font-size: 3.75rem;
+    font-weight: 400;
+  }
+
+  .wrapper .dynamic-txts{
+    margin-left: 1rem;
+    line-height: 70px;
+    height: 70px;
+    overflow: hidden;
+  }
+
+  .dynamic-txts li{
+    color: var(--font-dynamic);
+    list-style: none;
+    font-size: 3.75rem;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 16s steps(4) infinite;
+  }
+
+  @keyframes slide {
+    100%{
+       top: -280px;
+    }
+  }
+
+
+  .dynamic-txts li span{
+    position: relative;
+  }
+
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--background-color);
+    border-left: 2px solid var(--font-dynamic);
+    animation: typing 4s steps(18) infinite;
+  }
+
+  @keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+  }
+
+  .home-img{
+    width: 40%;
+    height: 40%;
+  }
+
+  .home-left{
+    float: left;
+  }
+
+  .home-right{
+    float: right;
+  }
