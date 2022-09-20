@@ -85,12 +85,17 @@
   .home-img{
     width: 40%;
     height: 40%;
+    animation: MoveUpDown 3s linear infinite;
   }
 
-  .home-left{
-    float: left;
-  }
-
-  .home-right{
-    float: right;
-  }
+  @keyframes MoveUpDown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
