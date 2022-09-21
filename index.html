@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/style.css">
-    </head>
-    <body>
-        <div>
-            <div class="wrapper">
-                <div class="static-txt">I'm Harshit, I'm a</div>
-                <ul class="dynamic-txts">
-                    <li><span>Software Developer</span></li>
-                    <li><span>Teaching Assistant</span></li>
-                    <li><span>App Developer</span></li>
-                    <li><span>Web Developer</span></li>
-                </ul>
-            </div>
-            <div class="home-right">
-                <img class="home-img" src="/images/home-page.jpeg" alt="" />
-            </div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <h1>I'm Harshit, I'm
+            <span class="auto-type dynamic-color"></span>
+        </h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed(".auto-type", {
+            strings: ["Software Developer", "Teaching Assistant", "App Developer", "Web Developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+</body>
 </html>
