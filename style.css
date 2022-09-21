@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: center;
     background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382");
+    display: flex;
   }
 
   .container h1{
@@ -32,6 +33,51 @@
   .dynamic-color{
     color: var(--font-dynamic);
   }
+
+  .container-left{
+    width: 50%;
+    /* background: coral; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+
+  .container-right{
+    width: 50%;
+    /* background: blueviolet; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .coding-img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    animation: MoveUpDown 3s linear infinite;
+  }
+
+  @keyframes MoveUpDown {
+    0% {
+        transform: translateY(-1.25rem);
+    }
+    50% {
+        transform: translateY(1.25rem);
+    }
+    100% {
+        transform: translateY(-1.25rem);
+    }
+}
 
   /* body{
     display: flex;
