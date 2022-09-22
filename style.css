@@ -99,7 +99,8 @@
   font-size: 4rem;
   font-weight: 600;
   color: var(--font-white-static);
-  padding-left: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -119,6 +120,7 @@
   }
 
   .container-left h1{
+    padding-left: 5rem;
     font-size: 6rem;
   }
 
@@ -239,7 +241,7 @@
   display: flex;
   justify-content: flex-start;
   margin-top: 3rem;
-  padding-left: 5rem;
+  padding-left: 2rem;
 }
 
 .resume{
@@ -252,6 +254,12 @@
   width: 2.5rem;
   height: 2.5rem;
   margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .resume_download{
+    padding-left: 5rem;
+  }
 }
 
   /* body{
