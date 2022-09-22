@@ -35,28 +35,27 @@
   }
 
   .container-left{
-    width: 50%;
+    width: 100vw;
     /* background: coral; */
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
-    margin-left: 2rem;
-  }
-
-  .container-right{
-    width: 50%;
-    /* background: blueviolet; */
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+  }
+
+  .container-right{
+    width: 100vw;
+    /* background: blueviolet; */
+    height: auto;
+    max-height: 100%;
+
   }
 
   .about-me{
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--font-white-static);
   }
 
   .coding-img{
@@ -77,6 +76,45 @@
     100% {
         transform: translateY(-1.25rem);
     }
+}
+
+/* GRIDS */
+
+.grid{
+  height: 100vh;
+  display: grid;
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382");
+}
+
+.container-left h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--font-white-static);
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x2{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container-left{
+    width: 100%;
+  }
+
+  .container-right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-left h1{
+    font-size: 3.5rem;
+  }
+
+  .about-me{
+    font-size: 1.5rem;
+  }
 }
 
   /* body{
