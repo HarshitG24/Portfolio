@@ -58,7 +58,6 @@
   .about-me{
     margin-top: 1rem;
     font-size: 2rem;
-    text-align: center;
     color: var(--font-white-static);
   }
 
@@ -126,8 +125,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #9f68e0;
+  background: var(--background-color);
   color: var(--font-white-static);
+}
+
+.brand_logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand_logo_img{
+  width: 8rem;
+  height: 8rem;
 }
 
 .brand_title{
@@ -143,6 +154,7 @@
 .navbar_links ul li{
   list-style: none;
   font-size: 2rem;
+  margin-left: 5rem;
 }
 
 .navbar_links li a{
@@ -158,7 +170,7 @@
 
 .toggle_button{
   position: absolute;
-  top: 0.75rem;
+  top: 3.5%; /* 2.7rem */
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -204,6 +216,10 @@
 
   .navbar_links.active{
     display: flex;
+  }
+
+  .navbar_links ul li{
+    margin-left: 0;
   }
 
 }
