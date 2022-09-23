@@ -420,3 +420,53 @@
     }
 
   }
+
+  /* Social Media Connect */
+
+  .find_me_container{
+    width: 100%;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    background: #654ea3; 
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+  }
+
+  .connect_grid{
+    display: grid;
+    width: 100vw;
+  }
+
+  .urls{
+    width: 100%;
+    text-align: center;
+    color: var(--font-white-static);
+    font-size: 4rem;
+    margin-top: 3rem;
+    font-weight: 800;
+  }
+
+  .professional_icon{
+    width: 24%;
+    height: 99%;
+  }
+
+  .social_media{
+    margin: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    .connect_grid--1x3{
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .find_me_container{
+      height: 30rem;
+    }
+
+  }
