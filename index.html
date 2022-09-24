@@ -1,103 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <head>
-        <nav class="navbar">
-            <div class="brand_logo">
-                <img class="brand_logo_img" src="/images/logo.PNG" alt="this is the logo">
-                <p class="brand_title">Harshit G. Portfolio</p>
-            </div>
-            <a href="#" class="toggle_button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="navbar_links">
-                <ul>
-                   <li><a href="">ABOUT ME</a></li>
-                   <li><a href="/html/project.html">PROJECTS</a></li>
-                   <li><a href="/html/experience.html">EXPEREINCE</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div class="brand_logo">
+          <img
+            class="brand_logo_img"
+            src="/images/logo.PNG"
+            alt="this is the logo" />
+          <p class="brand_title">Harshit G. Portfolio</p>
+        </div>
+        <a href="#" class="toggle_button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar_links">
+          <ul>
+            <li><a href="/html/project.html">PROJECTS</a></li>
+            <li><a href="/html/experience.html">EXPEREINCE</a></li>
+            <li><a href="/html/contactme.html">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
     </head>
 
     <main>
-        <section>
-            <div class="grid grid--1x2">
-                <div class="container-left">
-                    <h1>I'm Harshit, I'm
-                        <span class="auto-type dynamic-color"></span>
-                    </h1>
-                    <p class="about-me">An enthusiast MS Computer Science Student at Northeastern University.
-                        I am an inquisitive and diligent developer with the ability to adapt to any situation and proven potential to grow myself and organization.
-                    </p>
-                    <div class="resume_download">
-                        <a class="resume" href="/resume/resume_harshit_gajjar.pdf" download="">Resume</a>
-                        <img class="download_btn" src="/images/download_btn.png" alt="This is the download button icon">
-                    </div>
-                </div>
-                <div class="container-right">
-                    <img class="coding-img" src="/images/home-page.png" alt="The coding image to be shown on home page">
-                </div>
+      <section>
+        <div class="grid grid--1x2">
+          <div class="container-left">
+            <h1>
+              I'm Harshit, I'm
+              <span class="auto-type dynamic-color"></span>
+            </h1>
+            <p class="about-me">
+              An enthusiast MS Computer Science Student at Northeastern
+              University. I am an inquisitive and diligent developer with the
+              ability to adapt to any situation and proven potential to grow
+              myself and organization.
+            </p>
+            <div class="resume_download">
+              <a
+                class="resume"
+                href="/resume/resume_harshit_gajjar.pdf"
+                download=""
+                >Resume</a
+              >
+              <img
+                class="download_btn"
+                src="/images/download_btn.png"
+                alt="This is the download button icon" />
             </div>
-        </section>
-
-        <!-- GET IN TOUCH -->
-        <section>
-            <div class="contact_container_grid contact_container_grid--1x2">
-                <div class="touch_image">
-                    <div class="touch_container">
-                        <img src="/images/contact_me.svg" alt="contact me" class="contact_me_img">
-                    </div>
-                </div>
-
-                <div class="touch_form">
-                    <p class="get_in_touch">GET IN TOUCH</p>
-
-                    <div class="input_form">
-                        <input type="text" class="user_input" placeholder="Full Name">
-                        <input type="text" class="user_input" placeholder="Email">
-                        <input type="text" class="user_input" placeholder="Subject">
-                        <input type="text" class="user_input message_input" placeholder="Message">
-                        <button class="send_btn">Send</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Social Media -->
-        <section>
-            <div class="find_me_container">
-                <p class="urls">Social Platform</p>
-                <div class="connect_grid connect_grid--1x3">
-                    <div class="social_media">
-                        <a href="https://www.linkedin.com/in/harshit-gajjar-064020128/" target="_blank">
-                            <img src="/images/linkedin.png" alt="linkedin icon" class="professional_icon">
-                        </a>
-                    </div>
-
-                    <div class="social_media">
-                        <a href="https://github.com/HarshitG24" target="_blank">
-                            <img src="/images/github.png" alt="github icon" class="professional_icon">
-                        </a>
-                    </div>
-
-                    <div class="social_media">
-                        <a href="https://twitter.com/HarshitSFHusky" target="_blank">
-                            <img src="/images/twitter.png" alt="twitter icon" class="professional_icon">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+          <div class="container-right">
+            <img
+              class="coding-img"
+              src="/images/home-page.png"
+              alt="The coding image to be shown on home page" />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
@@ -105,12 +74,17 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="/script.js"></script>
     <script>
-        let typed = new Typed(".auto-type", {
-            strings: ["Software Developer", "Teaching Assistant", "App Developer", "Web Developer"],
-            typeSpeed: 150,
-            backSpeed: 150,
-            loop: true
-        })
+      let typed = new Typed(".auto-type", {
+        strings: [
+          "Software Developer",
+          "Teaching Assistant",
+          "App Developer",
+          "Web Developer",
+        ],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
     </script>
-</body>
+  </body>
 </html>
