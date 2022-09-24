@@ -18,7 +18,8 @@
   }
 
   body{
-    background: var(--background-color);
+    /* background: var(--background-color); */
+    background-image: url(/images/background_image.jpeg);
   }
 
   a{
@@ -34,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382");
+    /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382"); */
     display: flex;
   }
 
@@ -101,7 +102,7 @@
 .grid{
   height: 90vh;
   display: grid;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382"); */
 }
 
@@ -152,7 +153,8 @@
 .resume_download{
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   margin-top: 3rem;
   padding-left: 2rem;
     cursor: pointer;
@@ -170,6 +172,17 @@
   margin-left: 0.5rem;
   background: none;
   color: #fff;
+}
+
+.resume_btn{
+  background: none;
+  width: 15rem;
+  height: 5rem;
+  border: solid 1px #fff;
+  color: var(--font-white-static);
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
