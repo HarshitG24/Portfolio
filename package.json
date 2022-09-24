@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is a portfolio website for Harshit Bhavesh Gajjar. This website lets user know about me and my experience and my interests.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshitG24/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "Harshit Gajjar",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}
