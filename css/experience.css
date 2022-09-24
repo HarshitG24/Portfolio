@@ -18,18 +18,18 @@ html {
   font-size: 62.5%;
 }
 
-.timeline_body{
-    background: var(--background-color);
+.timeline_body {
+  background: var(--background-color);
 }
 
-.title{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    color: var(--white-color);
-    font-size: 5rem;
-    padding-top: 5rem;
-    font-weight: 800;
+.title {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: var(--white-color);
+  font-size: 5rem;
+  padding-top: 5rem;
+  font-weight: 800;
 }
 
 .timeline_section {
@@ -96,30 +96,30 @@ html {
   border-radius: 0.5rem;
 }
 
-.timeline_grid--1x3{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    text-align: left;
+.timeline_grid--1x3 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  text-align: left;
 }
 
-.timeline_major{
-    display: flex;
-    width: 100%;
-    text-align: left;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 2rem;
+.timeline_major {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2rem;
 }
 
-.timeline_logo{
-    width: 12rem;
-    height: 12rem;
+.timeline_logo {
+  width: 12rem;
+  height: 12rem;
 }
 
-.timeline_txt{
-    padding: 1rem;
-    font-size: 2rem;
-    color: var(--white-color);
+.timeline_txt {
+  padding: 1rem;
+  font-size: 2rem;
+  color: var(--white-color);
 }
 
 .timeline_content h3 {
@@ -138,17 +138,16 @@ html {
 } */
 
 @media screen and (max-width: 768px) {
+  .timeline_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    .timeline_grid {
-        grid-template-columns: repeat(1, 1fr) 
-    }
-
-    .title{
-        font-size: 3rem;
-    }
-    .timeline_items::before{
-        left: 0.7rem;
-    }
+  .title {
+    font-size: 3rem;
+  }
+  .timeline_items::before {
+    left: 0.7rem;
+  }
   .timeline_item:nth-child(odd) {
     padding-right: 0;
     text-align: left;
@@ -159,15 +158,15 @@ html {
     padding-left: 3.7rem;
   }
 
-  .timeline_dot{
+  .timeline_dot {
     left: 0;
   }
 
-  .timeline_major{
+  .timeline_major {
     padding-left: 0;
   }
 
-  .timeline_txt{
+  .timeline_txt {
     padding: 1rem;
     padding-left: 0;
   }
