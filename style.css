@@ -58,10 +58,12 @@
 
   .container-right{
     width: 100vw;
-    /* background: blueviolet; */
     height: auto;
     max-height: 100%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
   }
 
   .about-me{
@@ -72,10 +74,13 @@
   }
 
   .coding-img{
-    width: auto;
+    /* width: auto;
     height: auto;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%; */
+    width: 70%;
+    height: 90%;
+    object-fit: contain;
     animation: MoveUpDown 3s linear infinite;
   }
 
@@ -135,7 +140,8 @@
   }
 
   .about-me{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
     padding-left: 5rem;
   }
 }
@@ -252,6 +258,7 @@
   justify-content: flex-start;
   margin-top: 3rem;
   padding-left: 2rem;
+    cursor: pointer;
 }
 
 .resume{
@@ -264,6 +271,8 @@
   width: 2.5rem;
   height: 2.5rem;
   margin-left: 0.5rem;
+  background: none;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
