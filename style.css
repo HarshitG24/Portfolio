@@ -1,112 +1,112 @@
 :root {
-    --background-color: #343f4f;
-    --font-white-static: #fff;
-    --button-color: #9f68e0;
-    --font-dynamic: #fc6d6d
-  }
-  
-  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  --background-color: #343f4f;
+  --font-white-static: #fff;
+  --button-color: #9f68e0;
+  --font-dynamic: #fc6d6d;
+}
 
-  html{
-    font-size: 62.5%;
-  }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body{
-    /* background: var(--background-color); */
-    background-image: url(/images/background_image.jpeg);
-  }
+html {
+  font-size: 62.5%;
+}
 
-  a{
-    text-decoration: none;
-    color: #fff;
-  }
+body {
+  /* background: var(--background-color); */
+  background-image: url(/images/background_image.jpeg);
+}
 
-  .container{
-    width: 100%;
-    height: 100vh;
-    background: var(--background-color);
-    color: var(--font-white-static);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382"); */
-    display: flex;
-  }
+a {
+  text-decoration: none;
+  color: #fff;
+}
 
-  .container h1{
-    font-size: 3.5rem;
-    font-weight: 600;
-  }
+.container {
+  width: 100%;
+  height: 100vh;
+  background: var(--background-color);
+  color: var(--font-white-static);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382"); */
+  display: flex;
+}
 
-  .dynamic-color{
-    color: var(--font-dynamic);
-  }
+.container h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
 
-  .container-left{
-    width: 100vw;
-    /* background: coral; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+.dynamic-color {
+  color: var(--font-dynamic);
+}
 
-  .container-right{
-    width: 100vw;
-    height: auto;
-    max-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-  }
+.container-left {
+  width: 100vw;
+  /* background: coral; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .about-me{
-    margin-top: 1rem;
-    font-size: 2rem;
-    color: var(--font-white-static);
-    padding-left: 2rem;
-  }
+.container-right {
+  width: 100vw;
+  height: auto;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
 
-  .coding-img{
-    /* width: auto;
+.about-me {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--font-white-static);
+  padding-left: 2rem;
+}
+
+.coding-img {
+  /* width: auto;
     height: auto;
     max-width: 100%;
     max-height: 100%; */
-    width: 70%;
-    height: 90%;
-    object-fit: contain;
-    animation: MoveUpDown 3s linear infinite;
-  }
+  width: 70%;
+  height: 90%;
+  object-fit: contain;
+  animation: MoveUpDown 3s linear infinite;
+}
 
-  @keyframes MoveUpDown {
-    0% {
-        transform: translateY(-1.25rem);
-    }
-    50% {
-        transform: translateY(1.25rem);
-    }
-    100% {
-        transform: translateY(-1.25rem);
-    }
+@keyframes MoveUpDown {
+  0% {
+    transform: translateY(-1.25rem);
+  }
+  50% {
+    transform: translateY(1.25rem);
+  }
+  100% {
+    transform: translateY(-1.25rem);
+  }
 }
 
 /* GRIDS */
 
-.grid{
+.grid {
   height: 90vh;
   display: grid;
   /* background-color: var(--background-color); */
   /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382"); */
 }
 
-.container-left h1{
+.container-left h1 {
   font-size: 4rem;
   font-weight: 600;
   color: var(--font-white-static);
@@ -115,57 +115,63 @@
 }
 
 @media screen and (min-width: 768px) {
-
-  .grid{
+  .grid {
     height: 60vh;
   }
 
-  .grid--1x2{
+  .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .container-left{
+  .container-left {
     width: 100%;
   }
 
-  .container-right{
+  .container-right {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .container-left h1{
+  .container-left h1 {
     padding-left: 5rem;
     font-size: 6rem;
   }
 
-  .about-me{
+  .about-me {
     font-size: 2rem;
     line-height: 2.5rem;
     padding-left: 5rem;
   }
 }
 
-
 /* Resume */
 
-.resume_download{
+.resume_download {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
   padding-left: 2rem;
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.resume{
+.resume {
   font-size: 2rem;
   font-weight: 400;
+  border: solid 1px #fff;
+  background: none;
+  width: 15rem;
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.download_btn{
+.download_btn {
   background-color: var(--font-white-static);
   width: 2.5rem;
   height: 2.5rem;
@@ -174,25 +180,14 @@
   color: #fff;
 }
 
-.resume_btn{
-  background: none;
-  width: 15rem;
-  height: 5rem;
-  border: solid 1px #fff;
-  color: var(--font-white-static);
-  font-size: 2rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
 @media screen and (min-width: 768px) {
-  .resume_download{
+  .resume_download {
     padding-left: 5rem;
   }
 }
 
 /* Skills */
-.skill{
+.skill {
   background: var(--background-color);
   width: 100%;
   height: 50rem;
@@ -203,7 +198,7 @@
   text-align: center;
 }
 
-.skill_box{
+.skill_box {
   position: absolute;
   background: gray;
   width: 80%;
@@ -212,13 +207,13 @@
   max-width: 100%;
 }
 
-.skill_txt{
+.skill_txt {
   width: 100%;
   margin-top: 2rem;
   font-size: 3rem;
 }
 
-.tools{
+.tools {
   font-size: 2rem;
   margin-top: 1rem;
 }
