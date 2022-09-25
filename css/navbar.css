@@ -1,3 +1,7 @@
+:root {
+  --font-white-static: #fff;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -76,6 +80,10 @@
   width: 100%;
   background: var(--font-white-static);
   border-radius: 10px;
+}
+
+.add-color{
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
