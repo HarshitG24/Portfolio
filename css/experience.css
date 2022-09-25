@@ -20,8 +20,9 @@ html {
 }
 
 .timeline_body {
-  /* background: var(--background-color); */
-  background-image: url(/images/experience_background.avif);
+  background: #b92b27;
+  background: -webkit-linear-gradient(to right, #1565c0, #b92b27);
+  background: linear-gradient(to right, #1565c0, #b92b27);
 }
 
 .title {
