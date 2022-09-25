@@ -157,7 +157,7 @@ input:focus {
 .urls {
   width: 100%;
   text-align: center;
-  color: var(--font-white-static);
+  color: #000;
   font-size: 4rem;
   margin-top: 3rem;
   font-weight: 800;
