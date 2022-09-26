@@ -63,7 +63,7 @@ body {
 
 input:focus {
   outline: none;
-  background: #fff;
+  background: none;
 }
 
 .user_input {
@@ -74,6 +74,7 @@ input:focus {
   border-radius: 1rem;
   padding-left: 2rem;
   margin-bottom: 2.5rem;
+  color: #fff;
 }
 
 .message_input {
@@ -92,6 +93,12 @@ input:focus {
   border-width: 0;
   font-size: 2rem;
   cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.send_btn:hover{
+  background: #fc6d6d;
 }
 
 @media screen and (min-width: 768px) {
@@ -143,9 +150,6 @@ input:focus {
   background: #ffe6f7;
   margin: auto;
   margin-bottom: 5rem;
-  /* background: #654ea3;
-    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
-    background: linear-gradient(to right, #eaafc8, #654ea3); */
 }
 
 .connect_grid {
@@ -165,6 +169,11 @@ input:focus {
 .professional_icon {
   width: 24%;
   height: 99%;
+  filter: grayscale(100%);
+}
+
+.professional_icon:hover{
+  filter: grayscale(0%);
 }
 
 .social_media {
