@@ -32,6 +32,6 @@ The design document pdf can be found in the **/Document** folder of the project
 
 ## Screenshots
 <img width="1726" alt="Screen Shot 2022-09-26 at 9 05 45 AM" src="https://user-images.githubusercontent.com/35658851/192326147-f8ebdeb6-813e-4a7e-bc82-81543af6becd.png">
-<img width="1726" alt="2" src="https://user-images.githubusercontent.com/35658851/192179717-79fe4a50-89e4-46ce-be70-e5819bfcd72b.png">
+<img width="1728" alt="Screen Shot 2022-09-26 at 9 12 44 AM" src="https://user-images.githubusercontent.com/35658851/192327462-e37f7a92-1418-4b19-b358-e17a3f2bc810.png">
 <img width="1727" alt="3" src="https://user-images.githubusercontent.com/35658851/192179750-a439a927-d71d-4543-85ee-af93e221b6e1.png">
 <img width="1724" alt="4" src="https://user-images.githubusercontent.com/35658851/192179775-6c0c7aa9-fd6b-4619-8cbe-ca8047f66e49.png">
