@@ -35,7 +35,7 @@ The design document pdf can be found in the **/Document** folder of the project
 3. JavaScript
 
 ## Class Link
-[CS5610 Web Development Course](https://johnguerra.co/classes/webDevelopment_fall_2021/)
+[CS5610 Web Development Course](https://johnguerra.co/classes/webDevelopment_fall_2022/)
 
 ## TypedJS library
 [TypedJS](https://github.com/mattboldt/typed.js/) - This library is used to achieve typing text animation on homepage
