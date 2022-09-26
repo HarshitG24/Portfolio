@@ -90,7 +90,7 @@ body {
   cursor: pointer;
 }
 
-.github_link:hover{
+.github_link:hover {
   background-color: var(--font-dynamic);
 }
 

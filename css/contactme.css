@@ -97,7 +97,7 @@ input:focus {
   color: #fff;
 }
 
-.send_btn:hover{
+.send_btn:hover {
   background: #fc6d6d;
 }
 
@@ -172,7 +172,7 @@ input:focus {
   filter: grayscale(100%);
 }
 
-.professional_icon:hover{
+.professional_icon:hover {
   filter: grayscale(0%);
 }
 

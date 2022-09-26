@@ -201,7 +201,7 @@ a {
   justify-content: center;
 }
 
-.resume:hover{
+.resume:hover {
   background-color: var(--font-dynamic);
 }
 
