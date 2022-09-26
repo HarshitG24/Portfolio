@@ -19,6 +19,9 @@
 3. Experience Page (experience.html) -> The page illustrates my education and experience so far.
 4. Contact Page (contactme.html) -> The page allows the user the to contact and connect with me
 
+## Design Document
+The design document pdf can be found in the **/Document** folder of the project
+
 ## Tech Requirements
 1. HTML5
 2. CSS3
