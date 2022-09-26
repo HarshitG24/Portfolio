@@ -201,6 +201,10 @@ a {
   justify-content: center;
 }
 
+.resume:hover{
+  background-color: var(--font-dynamic);
+}
+
 .download_btn {
   background-color: var(--font-white-static);
   width: 2.5rem;

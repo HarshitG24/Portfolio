@@ -1,5 +1,6 @@
 :root {
   --font-white-static: #fff;
+  --font-dynamic: #fc6d6d;
 }
 
 body {
@@ -44,6 +45,10 @@ body {
   margin: 0.5rem;
 }
 
+.navbar_links{
+  padding-right: 5rem;
+}
+
 .navbar_links ul {
   margin: 0;
   padding: 0;
@@ -52,7 +57,7 @@ body {
 
 .navbar_links ul li {
   list-style: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-left: 5rem;
   color: white;
 }
@@ -65,7 +70,7 @@ body {
 }
 
 .navbar_links li:hover {
-  background: coral;
+  background: var(--font-dynamic);
 }
 
 .toggle_button {
@@ -104,6 +109,10 @@ body {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .navbar_links{
+    padding-right: 0;
   }
 
   .navbar_links ul {
