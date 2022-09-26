@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="icon" href="/images/logo.PNG" />
+    <title>HG Portfolio</title>
+
+    <meta name="author" content="Harshit Gajjar" />
+    <meta
+      name="description"
+      content="This is a portfolio website for Harshit Bhavesh Gajjar. This website lets user know about me and my experience and my interests." />
+
+    <script
+      src="https://kit.fontawesome.com/f5dd5ff3ab.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="brand_logo">
+          <a href="/" class="brand_logo_div">
+            <img
+              class="brand_logo_img"
+              src="/images/logo.PNG"
+              alt="this is the logo" />
+            <p class="brand_title">Harshit G. Portfolio</p>
+          </a>
+        </div>
+        <a href="#" class="toggle_button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar_links">
+          <ul>
+            <li><a href="/html/project.html">Projects</a></li>
+            <li><a href="/html/experience.html">Experience</a></li>
+            <li><a href="/html/contactme.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="grid grid--1x2">
+          <div class="container-left">
+            <h1>I'm Harshit, I'm</h1>
+            <div class="my_dynamic_txt">
+              <span class="auto-type dynamic-color"></span>
+            </div>
+            <p class="about-me">
+              I am a passionate Northeastern University MS Computer Science
+              student. Problem-solving and coding are two of my greatest
+              interests. I have robust foundations in data structures and
+              algorithms owing to my background in computer science. Both as a
+              software developer and an iOS mentor, I have experience working in
+              Dubai. For the biggest sporting event in the UAE, known as BITS
+              Sports Festival, I have developed an iOS app on the App Store.
+            </p>
+            <br />
+            <p class="about-me">
+              I've worked with web development, native iOS app development, and
+              Android app development. I work as a teaching assistant at
+              Northeastern University and am constantly interested in acquiring
+              new skills and technology. In my spare time, I enjoy discovering
+              new foods and locations as well as watching movies.
+            </p>
+            <div class="resume_download">
+              <a
+                class="resume"
+                href="/resume/resume_harshit_gajjar.pdf"
+                download=""
+                >Resume</a
+              >
+            </div>
+          </div>
+          <div class="container-right">
+            <img
+              class="coding-img"
+              src="/images/my_photo.jpeg"
+              alt="The coding image to be shown on home page" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="skills">
+        <p class="skills_txt">Skills</p>
+
+        <div class="skill_parent">
+          <div class="skill_percent">
+            <p class="skill_name">Java</p>
+            <p class="skill_percent">90%</p>
+          </div>
+          <div class="skill_background">
+            <div class="skill_progress progress1"></div>
+          </div>
+        </div>
+
+        <div class="skill_parent">
+          <div class="skill_percent">
+            <p class="skill_name">JavaScript</p>
+            <p class="skill_percent">80%</p>
+          </div>
+          <div class="skill_background">
+            <div class="skill_progress progress2"></div>
+          </div>
+        </div>
+
+        <div class="skill_parent">
+          <div class="skill_percent">
+            <p class="skill_name">C/C++</p>
+            <p class="skill_percent">50%</p>
+          </div>
+          <div class="skill_background">
+            <div class="skill_progress progress3"></div>
+          </div>
+        </div>
+
+        <div class="skill_parent">
+          <div class="skill_percent">
+            <p class="skill_name">HTML/CSS</p>
+            <p class="skill_percent">50%</p>
+          </div>
+          <div class="skill_background">
+            <div class="skill_progress progress3"></div>
+          </div>
+        </div>
+
+        <div class="skill_parent">
+          <div class="skill_percent">
+            <p class="skill_name">ReactJS</p>
+            <p class="skill_percent">60%</p>
+          </div>
+          <div class="skill_background">
+            <div class="skill_progress progress4"></div>
+          </div>
+        </div>
+
+        <div class="skill_parent">
+          <div class="skill_percent">
+            <p class="skill_name">Git</p>
+            <p class="skill_percent">70%</p>
+          </div>
+          <div class="skill_background">
+            <div class="skill_progress progress5"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/js/script.js"></script>
+    <!-- Needed here for the typing text to work -->
+    <script>
+      let typed = new Typed(".auto-type", {
+        strings: [
+          "Software Developer",
+          "Teaching Assistant",
+          "App Developer",
+          "Web Developer",
+        ],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

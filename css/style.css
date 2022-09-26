@@ -1,0 +1,348 @@
+:root {
+  --background-color: #343f4f;
+  --font-white-static: #fff;
+  --button-color: #9f68e0;
+  --font-dynamic: #fc6d6d;
+  --skill-progress-bar-height: 1.5rem;
+  --progress-bar-color: #f96666;
+  --progress-skill-background: rgb(218, 220, 214);
+  --skill-background: #24292d;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* background: var(--background-color); */
+  background-image: url(/images/background_image.jpeg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: var(--background-color);
+  color: var(--font-white-static);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382"); */
+  display: flex;
+}
+
+.container h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+}
+
+.container-left h1 {
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--font-white-static);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.dynamic-color {
+  color: var(--font-dynamic);
+}
+
+.container-left {
+  width: 100vw;
+  /* background: coral; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.container-right {
+  width: 100vw;
+  height: auto;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.my_dynamic_txt {
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--font-white-static);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.about-me {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--font-white-static);
+  padding-left: 2rem;
+}
+
+.coding-img {
+  width: 70%;
+  height: 90%;
+  object-fit: contain;
+  /* animation: MoveUpDown 3s linear infinite; */
+}
+
+@keyframes MoveUpDown {
+  0% {
+    transform: translateY(-1.25rem);
+  }
+  50% {
+    transform: translateY(1.25rem);
+  }
+  100% {
+    transform: translateY(-1.25rem);
+  }
+}
+
+/* GRIDS */
+
+.grid {
+  height: 90vh;
+  display: grid;
+  /* background-color: var(--background-color); */
+  /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/025/454/259/large/andre-novo-artboard-1.jpg?1585842382"); */
+}
+
+.container-left h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--font-white-static);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    height: 60vh;
+  }
+
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container-left {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .container-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-left h1 {
+    width: 100%;
+    padding-left: 5rem;
+    font-size: 6rem;
+    text-align: left;
+  }
+
+  .my_dynamic_txt {
+    padding-left: 5rem;
+  }
+
+  .about-me {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-left: 5rem;
+  }
+}
+
+/* Resume */
+
+.resume_download {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+.resume {
+  font-size: 2rem;
+  font-weight: 400;
+  border: solid 1px #fff;
+  background: none;
+  width: 15rem;
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume:hover {
+  background-color: var(--font-dynamic);
+}
+
+.download_btn {
+  background-color: var(--font-white-static);
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.5rem;
+  background: none;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .resume_download {
+    padding-left: 5rem;
+  }
+}
+
+/* Skills */
+.skill {
+  background: var(--background-color);
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--font-white-static);
+  text-align: center;
+}
+
+.skill_box {
+  position: absolute;
+  background: gray;
+  width: 80%;
+  height: 40rem;
+  margin: 0 2rem;
+  max-width: 100%;
+}
+
+.skill_txt {
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.tools {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+/* Skills */
+.skills {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background: var(--skill-background);
+  margin-top: 20rem;
+  margin-bottom: 5rem;
+  color: var(--font-white-static);
+  padding-bottom: 1rem;
+}
+
+.skills_txt {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+.skill_parent {
+  width: 100%;
+  margin: 2rem;
+}
+
+.skill_percent {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.skill_name {
+  width: 100%;
+  text-align: left;
+}
+
+.skill_percent {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill_background {
+  width: 100%;
+  height: var(--skill-progress-bar-height);
+  background: var(--progress-skill-background);
+  position: relative;
+}
+
+.skill_progress {
+  position: relative;
+  height: var(--skill-progress-bar-height);
+  background: var(--progress-bar-color);
+}
+
+.progress1 {
+  width: 90%;
+}
+
+.progress2 {
+  width: 80%;
+}
+
+.progress3 {
+  width: 50%;
+}
+
+.progress4 {
+  width: 60%;
+}
+
+.progress5 {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .skills_txt {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .skill_parent {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 6rem;
+  }
+
+  .skill_percent {
+    font-size: 2.2rem;
+  }
+}
