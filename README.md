@@ -7,6 +7,12 @@
 **Youtube Link**
 [Harshit G. Portfolio](https://www.youtube.com/watch?v=gQiYkyF1wxg&ab_channel=HarshitGajjar)
 
+**Website Link**
+[Google Slides Link](https://docs.google.com/presentation/d/18p3P0b7kY4vQIuBQ81DZsVf272mgTQXz8lbgoT4lROs/edit#slide=id.p)
+
+**Design Document**
+[Design Document](https://drive.google.com/file/d/1XJUP-N6b3ZTgECVx98DTi2T2q0J_YNeG/view?usp=sharing)
+
 **Project Objective:**
  To build a personal homepage which illustrates personal and professional information about self. This is a project for CS5610 Web Development class   at Northeastern University.  The motivation behind this project is to showcase about ourself by making the use of creativity and learning of HTML5, CSS3 and Javascript. The website demonstrates about self that is skills, education, background and projects. The project also allow us to get familiar with eslint and prettier. The website is [W3C Compliant](https://validator.w3.org/) and shows the use of HTML/CSS and JavaScript together.
 
@@ -35,7 +41,7 @@ The design document pdf can be found in the **/Document** folder of the project
 3. JavaScript
 
 ## Class Link
-[CS5610 Web Development Course](https://johnguerra.co/classes/webDevelopment_fall_2021/)
+[CS5610 Web Development Course](https://johnguerra.co/classes/webDevelopment_fall_2022/)
 
 ## TypedJS library
 [TypedJS](https://github.com/mattboldt/typed.js/) - This library is used to achieve typing text animation on homepage
